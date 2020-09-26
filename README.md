@@ -9,7 +9,7 @@ La idea de esta aplicación que voy a desarrollar consiste en poder introducir u
 ## Documentación
 Presentamos un listado con la documentación del proyecto:
     
-- Herramientas usas en el proyecto. [Más informacion](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
+- Herramientas usadas en el proyecto. [Más informacion](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 
 ## Autor
 - Antonio Martín León
