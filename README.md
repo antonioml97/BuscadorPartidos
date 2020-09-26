@@ -7,9 +7,9 @@ La idea de esta aplicación que voy a desarrollar consiste en poder introducir u
 - El **lenguaje** principal del proyecto es [NodeJS](https://nodejs.org/es/)
 
 ## Documentación
-    Presentamos un listado con la documentación del proyecto:
+Presentamos un listado con la documentación del proyecto:
     
-    -Herramientas usas en el proyecto. [Más informacion]()
+- Herramientas usas en el proyecto. [Más informacion](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 
 ## Autor
 - Antonio Martín León
