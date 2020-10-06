@@ -16,7 +16,7 @@ Presentamos un listado con la documentación del proyecto:
 - Herramientas usadas en el proyecto. [Más informacion](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 
 ## Enlaces adicionales
-- [Configuracion de git]()
+- [Configuracion de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
 
 ## Autor
 - Antonio Martín León
