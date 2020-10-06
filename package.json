@@ -1,0 +1,22 @@
+{
+  "name": "buscardor-partidos",
+  "version": "1.0.0",
+  "description": "Buscar siguiente partidos de futbol",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioml97/IV-20-21.git"
+  },
+  "author": "Antonio Martin Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonioml97/IV-20-21/issues"
+  },
+  "homepage": "https://github.com/antonioml97/IV-20-21#readme"
+}
