@@ -1,7 +1,7 @@
 ## Configuración Github
 
 # Configuración Básica
-![gitBasico](./img/gitBacico.png)
+![gitBasico](./img/gitBasico.png)
 
 # Configuración clave público-privada
 ![gitsss](./img/gitssh.png)
