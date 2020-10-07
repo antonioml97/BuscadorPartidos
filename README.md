@@ -8,7 +8,7 @@ La idea de esta aplicación que voy a desarrollar consiste en poder introducir u
 - El **framework** que he decido usar es [Express](https://expressjs.com/es/) que ha sido creado por uno de los desarrolladores del mismo lenguaje, y me ha llamado la atención además de ser software libre. 
 - Sera necesario una **base de datos** para los siguientes partidos hará falta almacenarlos, puede MongoDB o cualquier otro sistema de almecenamiento.
 - Los **datos** pueden ser obtenido de un calendario oficial de una manera externa, o bien, introducirlos manuelmente en una base de datos.
-Logs: Será necesario almacenar las "trazas" que siguen los usuarios, lo que nos permitirá la búsqueda de posibles errores y mejorar la gestión de la información.
+- Para los **Logs**  usare [Winston](https://github.com/winstonjs/winston) y [Morgan](https://github.com/expressjs/morgan).
 
 ## Documentación
 Presentamos un listado con la documentación del proyecto:
