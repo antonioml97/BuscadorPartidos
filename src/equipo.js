@@ -9,5 +9,4 @@ class Equipo {
     }
 
     CambiarEntrenador(Entrenador nuevo_entrenador);
-     
 }
