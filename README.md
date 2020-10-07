@@ -10,7 +10,7 @@ La idea de esta aplicación que voy a desarrollar consiste en poder introducir u
 - Los **datos** pueden ser obtenido de un calendario oficial de una manera externa, o bien, introducirlos manuelmente en una base de datos.
 - Para los **Logs**  usare [Winston](https://github.com/winstonjs/winston) y [Morgan](https://github.com/expressjs/morgan).
 
-## Documentación
+## Documentación del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
     
 - Herramientas usadas en el proyecto. [Más informacion](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
