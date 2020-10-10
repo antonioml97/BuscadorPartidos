@@ -6,4 +6,5 @@ Se forman como si fueran issues y otros issues podrían contribuir para cerrarlo
 - [HU2](https://github.com/antonioml97/BuscadorPartidos/issues/2)
 
 # Milstones
-Vamos a tener uno milestone por cada hito de la asignatura, aunque puede haber más. 
+Vamos a tener uno milestone por cada hito de la asignatura, aunque puede haber más.
+ [Más información](https://github.com/antonioml97/BuscadorPartidos/milestones) 
