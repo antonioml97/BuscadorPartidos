@@ -1,9 +1,7 @@
 
-import Entrenador from "./entrenador.js"
-
-class Equipo {
+module.exports = class Equipo {
     constructor(){
         var numerojugadores;
-        Entrenador entrenador;
+        var entrenador=require('./entreador.js');;
     }
 }

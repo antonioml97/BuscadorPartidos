@@ -1,11 +1,7 @@
 
-
-class Entrenador{
-
+module.exports = class Entrenador{
     constructor(){
-        String nombre;
+        var nombre;
         var edad;
     }
-
-    CambiarNombreEntranador(string nuevo_nombre)
 }

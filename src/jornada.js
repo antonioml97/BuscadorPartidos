@@ -1,11 +1,9 @@
-import Equipo from "./equipo.js"
-
-class Jornada {
-    
+module.exports = class Jornada {
     constructor(){
         var numeroparitdos;
-        var partidos;
+        var partidosJornada;
+        var dia;
+        var mes;
+        var anioTemporada;
     }
-
-     
 }
