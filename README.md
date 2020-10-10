@@ -1,10 +1,11 @@
 # IV-20-21
-# Buscador de partidos
+# BuscarPartidos
 
-La idea de este microservicio que voy a desarrollar consiste en poder introducir una fecha o una jornada, o el nombre de un equipo y consultar los partidos que hay ese día o esa jornada. 
-El motivo por el cual he elegido este problema es porque siempre que quiero ver algo similar neceisto darle mucho clicks a las plataformas actuales, en cambio de esta manera es mucho más rapido.
+La idea de este microservicio que voy a desarrollar consiste en poder introducir una fecha o una jornada, o el nombre de un equipo y consultar los partidos que hay ese día o esa jornada. Además, para obtener el nombre entrenador de un equipo.
 
-Para implementarlo he elegiado NodeJS
+El motivo por el cual he elegido este problema es porque siempre que quiero ver algo similar necesito darle mucho clicks a las plataformas actuales y recorrer varios submenus hasta llegar a la información que busco, en cambio de esta manera va a ser mucho más rapido.
+
+Para implementarlo he elegiado NodeJS.
 
 ## Documentación 
 Presentamos un listado con la documentación del proyecto en el estado actual:
