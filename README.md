@@ -7,10 +7,10 @@ El motivo por el cual he elegido este problema es porque siempre que quiero ver 
 
 Para implementarlo he elegiado NodeJS.
 
-## Documentacion del proyecto
+## Documentación del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
     
-- Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
+- erramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 - Historias de usuario y milestones. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/HistoriasDeUsuario.md)
 - Pasos para llevarlo a cabo. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Pasos.md)
 
