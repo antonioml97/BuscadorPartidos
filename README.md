@@ -7,7 +7,7 @@ El motivo por el cual he elegido este problema es porque siempre que quiero ver 
 
 Para implementarlo he elegiado NodeJS.
 
-## Documentación del proyecto
+## Documentacion del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
     
 - Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
