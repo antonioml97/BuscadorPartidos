@@ -1,3 +1,4 @@
 entidad:  src/jornada.js
+lenguaje: nodejs
 test:  test/testChai.js
 taskfile: gulpfile.js
