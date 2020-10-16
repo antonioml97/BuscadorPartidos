@@ -21,7 +21,7 @@ Para llevar a acabo los test creados para el proyecto hay que seguir los [siguie
 El fichero donde esta el test se encuentra [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
 
 
-El uso de este test es comprobar que se leen bien los datos y con el formato adeacuado, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente imagen:
+El uso de este test es comprobar que se leen bien los datos y con el formato adeacuado, siendo un pequeño avanze pero significativo para el proyecto, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente imagen:
 
 
 ![test](./docs/img/test.png)
