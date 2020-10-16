@@ -18,7 +18,7 @@ Presentamos un listado con la documentación del proyecto en el estado actual:
 Para llevar a acabo los test creados para el proyecto hay que seguir los [siguientes pasos](https://github.com/antonioml97/IV-20-21/blob/master/docs/PasosTest.md).
 
 
-El fichero del test esta [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
+El fichero donde esta el test se encuentra [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
 
 
 El uso de este test es comprobar que se leen bien los datos y con el formato adeacuado, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente imagen:

@@ -1,4 +1,5 @@
 var assert    = require("chai").assert;
+
 var Jornada = require("../src/jornada.js");
 var jornadas = new Jornada();
 
