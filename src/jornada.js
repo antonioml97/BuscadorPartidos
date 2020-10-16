@@ -1,7 +1,7 @@
 class Jornada {
      /**
      * @function constructor
-     * @summary Constructor de la clase Jornada,
+     * @summary Constructor de la clase Jornada
      * @author Antonio Martin Leon
     */
     constructor(){
