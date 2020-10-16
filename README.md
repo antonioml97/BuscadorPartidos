@@ -16,6 +16,7 @@ Presentamos un listado con la documentación del proyecto en el estado actual:
 
 ## Enlaces adicionales
 - [Configuracion de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
+- [Información consultada para hacer los test](https://www.paradigmadigital.com/dev/testeando-javascript-mocha-chai/)
 
 ## Autor
 - Antonio Martín León

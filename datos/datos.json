@@ -1,0 +1,22 @@
+{
+    "Jornada-1": {
+      "Partido-1":{
+        "Equipo1": "Real Madrid",
+        "Equipo2": "Barcelona",
+        "Dia": "24 octubre",
+        "Estadio": "Santiago Bernabeu"
+      },
+      "Partido-2":{
+        "Equipo1": "Granada",
+        "Equipo2": "Sevilla",
+        "Dia": "24 octubre",
+        "Estadio": "Los Carmenes"
+      }
+    },
+    "Jornada-2": {},
+    "Jornada-3": {},
+    "Jornada-4": {},
+    "Jornada-5":{},
+    "Jornada-6":{},
+    "Jornada-7":{}
+}

@@ -1,1 +1,3 @@
 entidad:  src/jornada.js
+test:  test/testChai.js
+taskfile: gulpfile.js

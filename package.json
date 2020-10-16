@@ -1,0 +1,33 @@
+{
+  "name": "proyecto_iv",
+  "version": "1.0.5",
+  "description": "La idea de este microservicio que voy a desarrollar consiste en poder introducir una fecha o una jornada, o el nombre de un equipo y consultar los partidos que hay ese día o esa jornada. Además, para obtener el nombre entrenador de un equipo.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioml97/IV-20-21.git"
+  },
+  "author": "Antonio Martin Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonioml97/IV-20-21/issues"
+  },
+  "homepage": "https://github.com/antonioml97/IV-20-21#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "core-util-is": "^1.0.2",
+    "gulp-live-server": "0.0.31",
+    "mocha": "^8.1.3",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  }
+}

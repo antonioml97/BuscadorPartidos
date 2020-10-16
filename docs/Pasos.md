@@ -13,6 +13,10 @@ A continuación, vamos a ir desarrollando y explicando los pasos de cada hito.
 - Añadir fichero iv.yaml con la entidad correspondiente.
 - Crear la carpeta **src** y añadir la estructura de una clase.
 
+## Hito 2
+- Comprender la importancia del "Desarrollo basado en pruebas".
+- Crear los test.
+- Automatizar dichos test.
 
 ## Información adicional 
 Antes de empezar cada hito habrá que actualizar los objetivos en el repositorio haciendo un PR y cuando se acabe el hito habrá que hacer otro PR para actualizar el fichero hito-X-md del fork tras haber actualizado tu repositorio.
