@@ -14,7 +14,7 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
     });
  }); 
  describe("Comprobamos getJornada Function: ", function() {
-    it("Compruebamos que existe Jornada-1", function() {
+    it("Compruebamos que existe la Jornada-1", function() {
         result   = jornadas.getJornada("Jornada-1");
         assert.notEqual(result,"ERROR");
     });

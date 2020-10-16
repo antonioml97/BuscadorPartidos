@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
-var run= require('gulp-run');
 
 
 //Tarea para testear el proyecto.
