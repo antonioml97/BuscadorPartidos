@@ -16,11 +16,15 @@ Presentamos un listado con la documentación del proyecto en el estado actual:
 
 ## Test
 Para llevar a acabo los test creados para el proyecto hay que seguir los [siguientes pasos](https://github.com/antonioml97/IV-20-21/blob/master/docs/PasosTest.md).
+
+
 El fichero del test esta [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
+
+
 El uso de este test es comprobar que se leen bien los datos y con el formato adeacuado, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente imagen:
 
 
-![gitBasico](./img/test.png)
+![test](./docs/img/test.png)
 ## Enlaces adicionales
 - [Configuracion de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
 - [Información consultada para hacer los test](https://www.paradigmadigital.com/dev/testeando-javascript-mocha-chai/)
