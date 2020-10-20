@@ -16,7 +16,7 @@ class Jornada {
           this.data = require('../datos/datos.json')
         }
         catch(err){
-          this.data = "ERROR";
+          this.data = undefined;
         }
     }
    
@@ -38,17 +38,17 @@ class Jornada {
     * @returns {(Object|String)} objeto del jornada si este existe, si no existe devuelve un string de aviso.
     */
     getJornada(jornada){
-      if(this.data != "ERROR"){
+      if(this.data != undefined){
         var jornada = this.data[jornada];
         if(jornada != undefined){
           return jornada;
         }
         else{
-          return "ERROR";
+          return undefined;
         }
       }
       else{
-        return "ERROR";
+        return undefined;
       }
     }
 }
