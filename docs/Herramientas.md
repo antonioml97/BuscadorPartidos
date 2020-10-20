@@ -1,10 +1,10 @@
 # Herramientas
-- He elegido el **lenguaje** [NodeJS](https://nodejs.org/es/) debido a que es un lenguaje que nunca he usado y te proporciona una alta escalabilidad, por lo que me parece una buena idea empezar a trabjar con el.
+- He elegido el **lenguaje** [NodeJS](https://nodejs.org/es/) debido a que es un lenguaje que nunca he usado y te proporciona una alta escalabilidad, por lo que me parece una buena idea empezar a trabajar con el.
 - El **framework** que he decido usar es [Express](https://expressjs.com/es/) que ha sido creado por uno de los desarrolladores del mismo lenguaje, y me ha llamado la atención además de ser software libre. 
-- Sera necesario una **base de datos** para los siguientes partidos hará falta almacenarlos, puede MongoDB o cualquier otro sistema de almecenamiento.
-- Los **datos** pueden ser obtenido de un calendario oficial de una manera externa, o bien, introducirlos manuelmente en una base de datos.
-- Para los **Logs**  usare [Winston](https://github.com/winstonjs/winston) y [Morgan](https://github.com/expressjs/morgan).
+- Sera necesario una **base de datos** para los siguientes partidos hará falta almacenarlos, puede MongoDB o cualquier otro sistema de almacenamiento.
+- Los **datos** pueden ser obtenido de un calendario oficial de una manera externa, o bien, introducirlos manualmente en una base de datos, o un archivo JSON.
+- Para los **Logs** usare [Winston](https://github.com/winstonjs/winston) y [Morgan](https://github.com/expressjs/morgan).
 - Para hacer llevar acabo los **test** he usado diversas herramientas que son:
-    - [MOCHA.JS](https://mochajs.org/), es un marco de prueba de JavaScript para los programas Node.js, que ofrece soporte de navegador, pruebas asincrónicas, informes de cobertura de prueba y el uso de cualquier biblioteca de aserciones.
-    - [CHAI.JS](https://www.chaijs.com/), Chai es una librería de aserciones, que se puede emparejar con cualquier marco de pruebas de JavaScript. Chai tiene varias interfaces: assert, expect y should, en este caso he usado assert.
-    - [GULPJS](https://gulpjs.com/), Gulp es un manejador de tareas(Task manager).
+- [MOCHA.JS](https://mochajs.org/), es un marco de prueba de JavaScript para los programas Node.js, que ofrece soporte de navegador, pruebas asincrónicas, informes de cobertura de prueba y el uso de cualquier biblioteca de aserciones. 
+- [CHAI.JS](https://www.chaijs.com/), Chai es una librería de aserciones, que se puede emparejar con cualquier marco de pruebas de JavaScript. Chai tiene varias interfaces: assert, expect y should, en este caso he usado assert. 
+- [GULPJS](https://gulpjs.com/), Gulp es un manejador de tareas(Task manager). He optado por elegir este task manager debido a que es muy sencillo de entender y hay varios proyectos y tutoriales que ayudan a su compresión. 
