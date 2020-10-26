@@ -26,7 +26,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 ![test](./docs/img/testFinal.png)
 
 ## Docker
-- Elección correcta y justifacion de contenedor base. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/DockerJustifacion.md)
+- Elección correcta y justifacion de contenedor base. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerJustificacion.md)
 
 ## Enlaces adicionales
 - [Configuración de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
