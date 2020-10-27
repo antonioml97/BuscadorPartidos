@@ -18,4 +18,4 @@ VOLUME /test
 WORKDIR /test
 
 # Ejecuto gulp para ejecutar los test's
-CMD ["gulp"]
+CMD ["gulp","test"]
