@@ -1,5 +1,5 @@
 # Indica la versión del contenedor
-FROM node:12.18.4-alpine
+FROM node:10-alpine
 LABEL maintainer="Antonio Martin"
 
 # Indica el directorio donde se montará todo
@@ -18,7 +18,7 @@ COPY gulpfile.js ./
 RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save
 
 # Añado un usuario sin contraseña y lo ponga para ejecutar lo siguiente
-RUN adduser -D usuarioIV
+RUN adduser -D UsuarioIV
 USER usuarioIV
 
 # Ejecuto gulp para ejecutar los test's
