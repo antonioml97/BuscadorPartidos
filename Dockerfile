@@ -8,14 +8,13 @@ COPY package*.json ./
 COPY gulpfile.js ./
 
 # Instala las dependencias 
-RUN npm install && npm install -g gulp && npm install gulp-mocha --save
+RUN npm install && npm install -g gulp && npm install gulp-mocha --save && adduser -D series
 
 # Usuario
-USER node
+USER series
 
 # Indica el directorio donde se montará todo
 VOLUME /test
 WORKDIR /test
-
 # Ejecuto gulp para ejecutar los test's
 CMD ["gulp","test"]
