@@ -6,10 +6,8 @@ El objetivo de llevar a cabo lo que se conoce como buenas practicas es tener un 
 
 Buscando esos objetivos he hecho lo siguiente:
 - En lugar de hacer la orden RUN varias veces, he optado por hacerlo todo a la vez (excepto el usuario), quedando de esta manera:
-
-`RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save`
-
-  De esta manera usando multilineas conseguimos maximizar el cache y reducir capas ya que cada comando de Docker crea una capa que se almacenara en caché.
+  `RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save`
+  De esta manera usando multilineas conseguimos maximizar el cache y reducir capas ya que cada comando de Docker crea una capa que se almacenara en caché.d
 - También he añadido el metadato de *maintainer*, que indica quien es el autor.
 
                                                                                                                                         
