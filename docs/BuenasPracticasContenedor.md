@@ -9,7 +9,7 @@ Buscando esos objetivos he hecho lo siguiente:
 
 `RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save`
 
-De esta manera usando multilineas conseguimos maximizar el cache y reducir capas ya que cada comando de Docker crea una capa que se almacenara en caché.
+  De esta manera usando multilineas conseguimos maximizar el cache y reducir capas ya que cada comando de Docker crea una capa que se almacenara en caché.
 - También he añadido el metadato de *maintainer*, que indica quien es el autor.
 
                                                                                                                                         
