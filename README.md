@@ -38,8 +38,8 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - Ejecutar: ```docker run -t -v `pwd`:/test antonioml97/buscadorpartidos ```
 
 ## GITHUB CONTAINER REGISTRY
-- Explicacion de GHCR [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
-- [Contendor de Github](https://github.com/users/antonioml97/packages/container/package/buscadorpartidos)).
+- Explicacion de GHCR [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Github-Container-Registry.md).
+- [Contendor de Github](https://github.com/users/antonioml97/packages/container/package/buscadorpartidos).
 - Ejecutar ```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
 
 ## Enlaces adicionales
