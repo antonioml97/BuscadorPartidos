@@ -18,7 +18,7 @@ COPY gulpfile.js ./
 RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save
 
 # Añado un usuario sin contraseña y lo ponga para ejecutar lo siguiente
-RUN adduser -D usuarioIV
+RUN adduser -D -g '' usuarioIV
 USER usuarioIV
 
 # Ejecuto gulp para ejecutar los test's
