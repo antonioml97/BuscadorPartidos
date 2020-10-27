@@ -21,7 +21,7 @@ Para llevar a acabo los test creados para el proyecto hay que seguir los [siguie
 
 El fichero donde esta el test se encuentra [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
 
-El uso de este test es comprobar que se leen bien los datos y con el formato adecuado, siendo un pequeño avance pero algo significativo para el proyecto, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente [imagen](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/testFinal.png)
+El uso de este test es comprobar que se leen bien los datos y con el formato adecuado, siendo un pequeño avance pero algo significativo para el proyecto, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente [imagen](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/testFinal.png).
 
 ## Docker
 - Elección correcta y justifacion de contenedor base. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerJustificacion.md)
