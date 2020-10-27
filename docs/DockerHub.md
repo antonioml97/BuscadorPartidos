@@ -5,7 +5,7 @@ Docker Hub el es un espacio de nube donde tenemos todo lo necesario para subir n
 ## Primeros pasos
 Como es lógico lo primero es crea una nueva cuenta y posteriormente crear nuestro repositorio, y conectarlo con GitHub para que se actualice de forma automática.
 
-![CrearRepositorio](./img/CrearRepositorioDocker-1.png)
+![CrearRepositorio](./img/CrearRepositorioDocker.png)
 ![LinkGithub-1](./img/LinkGithub-1.png)
 ![Docker-Github-2](./img/Docker-Github-2.png)
 ![Docker-Github-2](./img/DockerGit-3.png)
