@@ -27,6 +27,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - Elección correcta y justifacion de contenedor base. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerJustificacion.md)
 - Fichero para la configuración del docker, llamado **Dockerfile**. [Aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/Dockerfile).
 - Buena práctica para dockerfile. [¿Como lo he hecho?](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/BuenasPracticasContenedor.md).
+- Comparación de tiempos y velocidad de distintas imágenes[aquí](https://github.com/antonioml97/IV-20-21/blob/master/dcos/ComparacionImagenes.md).
 
 ## Docker Hub
 - Primeros pasos y actualización automática [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerHub.md).
@@ -35,6 +36,11 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 ## ¿Cómo ejecutar el test con Docker Hub?
 - Lo primero es descargar este repositorio.
 - Ejecutar: ```docker run -t -v `pwd`:/test antonioml97/buscadorpartidos ```
+
+## GITHUB CONTAINER REGISTRY
+- Explicacion de GHCR [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
+- [Contendor de Github](https://github.com/users/antonioml97/packages/container/package/buscadorpartidos)).
+- Ejecutar ```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
 
 ## Enlaces adicionales
 - [Configuración de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
