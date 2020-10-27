@@ -29,7 +29,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - Buena práctica para dockerfile. [¿Como lo he hecho?](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/BuenasPracticasContenedor.md).
 
 ## Docker Hub
-- Primeros pasos [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerHub.md).
+- Primeros pasos y actualización automática [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerHub.md).
 
 ## Enlaces adicionales
 - [Configuración de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
