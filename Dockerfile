@@ -3,7 +3,7 @@ FROM node:10-alpine
 LABEL maintainer="Antonio Martin"
 
 # Indica el directorio donde se montará todo
-WORKDIR /Contenedor-BuscardorPartidos
+WORKDIR /test
 
 # Copia el archivo de dependencias
 COPY package*.json ./
