@@ -8,8 +8,11 @@ COPY package*.json ./
 # Copio los archivos necesarios
 COPY gulpfile.js ./
 
+
 # Instala las dependencias 
-RUN npm install && npm install --global gulp-cli && npm install gulp-mocha --save
+RUN npm install 
+RUN npm install -g gulp 
+RUN npm install gulp-mocha --save
 
 # Usuario
 USER node
@@ -20,5 +23,6 @@ VOLUME /test
 WORKDIR /test
 
 ENV PATH=/home/node_modules/.bin:$PATH
+
 # Ejecuto gulp para ejecutar los test's
-CMD ["gulp","test"]
+CMD ["gulp"]
