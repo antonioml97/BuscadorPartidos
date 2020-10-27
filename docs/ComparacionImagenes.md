@@ -1,4 +1,4 @@
-## Comparacion de 2 imagenes
+## Comparación de 2 imágenes
 He optado por usar Alpine y Node:10.
 
 ![ImagenesTamanio](./img/ImagenesTamanio.png)
