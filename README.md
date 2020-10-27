@@ -34,7 +34,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 
 ## ¿Cómo ejecutar el test con Docker Hub?
 - Lo primero es descargar este repositorio.
-- Ejecutar: `docker run -t -v `pwd`:/test antonioml97/buscadorpartidos`
+- Ejecutar: docker run -t -v `pwd`:/test antonioml97/buscadorpartidos
 
 ## Enlaces adicionales
 - [Configuración de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
