@@ -1,23 +1,21 @@
-# Indica la versión del contenedor
-FROM node:14.14.0-alpine AS base
-LABEL version="1.2.5" maintainer="Antonio Martin"
+FROM node:14.14.0-alpine
 
-#Damos los permisos necesarios
-RUN  mkdir /node_modules && chown -R node /node_modules && chown -R node /usr/local/lib/node_modules && chown -R node /usr/local/bin
+RUN addgroup -S grupoIV && adduser -S antoniol97 -G grupoIV
 
-# Cambio a un usuario no privilegiado
-USER node
-
-# Copia el archivo de dependencias
+#Copiamos ficheros de dependencias e instalamos las dependencias
 COPY package*.json ./
-# Copio los archivos necesarios
-COPY gulpfile.js ./
+RUN npm install
 
-# Instala las dependencias 
-RUN npm install && npm install -g gulp
+#Eliminamos el fichero de dependencias
+RUN rm package*.json
 
-VOLUME ["/test"]
+#Instalamos gulp
+RUN npm install -g gulp
+
+#Cambiamos al usuario antoniol97 ya que no necesitamos permisos root para ejecutar los tests.
+USER antoniol97
+
+VOLUME /test
 WORKDIR /test
 
-# Ejecuto gulp para ejecutar los test's
 CMD ["gulp","test"]
