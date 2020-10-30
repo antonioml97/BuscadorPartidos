@@ -8,7 +8,7 @@ COPY package*.json ./
 # Instala las dependencias 
 RUN  adduser -D usuarioIV && mkdir /node_modules && chown -R usuarioIV /node_modules && chown -R usuarioIV /usr/local/lib/node_modules && chown -R usuarioIV /usr/local/bin
 
-# Usuario
+# Usamos el usuario
 USER usuarioIV
 
 # Instala las dependencias 
