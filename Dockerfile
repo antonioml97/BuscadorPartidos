@@ -7,6 +7,9 @@ COPY package*.json ./
 # Copio los archivos necesarios
 COPY gulpfile.js ./
 
+# Indica el directorio donde se montará todo
+WORKDIR /test
+
 # Directorio al que le vamos a dar permisos
 RUN mkdir /node_modules 
 
@@ -19,8 +22,7 @@ USER node
 # Instala las dependencias 
 RUN npm install && npm install -g gulp 
 
-# Indica el directorio donde se montará todo
-WORKDIR /test
+
 
 # Ejecuto gulp para ejecutar los test's
 CMD ["gulp","test"]
