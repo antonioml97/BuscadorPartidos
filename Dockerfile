@@ -18,7 +18,7 @@ COPY package*.json ./
 COPY gulpfile.js ./
 
 # Instala las dependencias 
-RUN npm install --silent --progress=false --no-optional 
+RUN npm install && npm install gulp
 
 FROM base AS test
 #Pasamos los datos a /node_modules
