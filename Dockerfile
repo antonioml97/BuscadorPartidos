@@ -25,6 +25,7 @@ FROM base AS test
 COPY --from=dependencies /node_modules /node_modules
 
 #Creación del volumen
+VOLUME ["/test"]
 WORKDIR /test
 
 #PATH del node_modules
