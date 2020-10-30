@@ -11,7 +11,7 @@ COPY gulpfile.js ./
 RUN mkdir /node_modules 
 
 # Damos permisos
-RUN chown node /node_modules && chown node /usr/local/lib/node_modules && chown node /usr/local/bin && chwon node /test
+RUN chown node /node_modules && chown node /usr/local/lib/node_modules && chown node /usr/local/bin &&  chwon node /test
 
 # A partir de aqui todo se ejecutara sin permisos de super usuario
 USER node
