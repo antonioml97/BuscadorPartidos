@@ -3,7 +3,7 @@ FROM node:14.14.0-alpine AS base
 LABEL version="1.2.5" maintainer="Antonio Martin"
 
 #Creación de grupo y usuario node. Instalación de node y npm
-RUN  mkdir /node_modules && chown node:node /node_modules
+RUN  mkdir /node_modules && chown -R node /node_modules && chown -R node /usr/local/lib/node_modules && chown -R node /usr/local/bin
 
 # Cambio a un usuario no privilegiado
 USER node
