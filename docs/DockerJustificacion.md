@@ -16,7 +16,7 @@ Por tanto, he decidio comparar 3 imagenes de este lenguaje que son node:14.14.0-
 
 
 | Imagen | Tamaño | Tiempo Usuario | Tiempo del Sistema | Tiempo Real |
-| -- | -- | -- | -- |
+| -- | -- | -- | -- | -- |
 | node:14.14.0-alpine| 173MB | 0.026s | 0.034s | 1.585s
 | node:10 | 967MB | 0.037s  |0.017s | 1.60s
 | node:10-buster-slim | 205MB| 0.036s | 0.034s | 2.398s
