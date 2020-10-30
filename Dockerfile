@@ -6,10 +6,10 @@ LABEL version="1.2.5" maintainer="Antonio Martin"
 COPY package*.json ./
 
 # Instala las dependencias 
-RUN  mkdir /node_modules && chown -R node /node_modules && chown -R node /usr/local/lib/node_modules && chown -R node /usr/local/bin
+RUN  adduser -D usuarioIV && mkdir /node_modules && chown -R usuarioIV /node_modules && chown -R usuarioIV /usr/local/lib/node_modules && chown -R usuarioIV /usr/local/bin
 
 # Usuario
-USER node
+USER usuarioIV
 
 # Instala las dependencias 
 RUN npm install && npm install -g gulp  
