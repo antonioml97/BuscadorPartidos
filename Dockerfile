@@ -2,15 +2,11 @@
 FROM node:14.14.0-alpine AS base
 LABEL version="1.2.5" maintainer="Antonio Martin"
 
-#Creación de grupo y usuario node. Instalación de node y npm
+#Damos los permisos necesarios
 RUN  mkdir /node_modules && chown -R node /node_modules && chown -R node /usr/local/lib/node_modules && chown -R node /usr/local/bin
 
 # Cambio a un usuario no privilegiado
 USER node
-
-FROM base AS dependencies
-# Diectorio para las depencias
-WORKDIR /
 
 # Copia el archivo de dependencias
 COPY package*.json ./
@@ -18,18 +14,9 @@ COPY package*.json ./
 COPY gulpfile.js ./
 
 # Instala las dependencias 
-RUN npm install --silent --progress=false --no-optional 
+RUN npm install && npm install -g gulp
 
-FROM base AS test
-#Pasamos los datos a /node_modules
-COPY --from=dependencies /node_modules /node_modules
-
-#Creación del volumen
 WORKDIR /test
-RUN npm install -g gulp
-
-#PATH del node_modules
-ENV PATH=/node_modules/.bin:$PATH
 
 # Ejecuto gulp para ejecutar los test's
 CMD ["gulp","test"]
