@@ -14,21 +14,19 @@ WORKDIR /
 
 # Copia el archivo de dependencias
 COPY package*.json ./
-
+# Copio los archivos necesarios
+COPY gulpfile.js ./
 
 # Instala las dependencias 
-RUN npm install 
+RUN npm install --silent --progress=false --no-optional && npm install -g gulp 
 
-#Eliminamos el fichero de dependencias
 FROM base AS test
 #Pasamos los datos a /node_modules
 COPY --from=dependencies /node_modules /node_modules
 
 #Creación del volumen
-VOLUME ["/test"]
 WORKDIR /test
-# Copio los archivos necesarios
-COPY gulpfile.js ./
+RUN npm instal -g gulp
 
 #PATH del node_modules
 ENV PATH=/node_modules/.bin:$PATH
