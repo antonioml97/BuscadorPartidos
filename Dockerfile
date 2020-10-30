@@ -1,21 +1,20 @@
+# Indica la versión del contenedor
 FROM node:14.14.0-alpine
-
-RUN addgroup -S grupoIV && adduser -S antoniol97 -G grupoIV
-
-#Copiamos ficheros de dependencias e instalamos las dependencias
+LABEL version="1.2.5" maintainer="Antonio Martin"
+# Copia el archivo de dependencias
 COPY package*.json ./
-RUN npm install
+# Copio los archivos necesarios
+COPY gulpfile.js ./
 
-#Eliminamos el fichero de dependencias
-RUN rm package*.json
+# Instala las dependencias 
+RUN npm install && npm install -g gulp && npm install gulp-mocha --save && adduser -D usuarioIV
 
-#Instalamos gulp
-RUN npm install -g gulp
+# Usuario
+USER usuarioIV
 
-#Cambiamos al usuario antoniol97 ya que no necesitamos permisos root para ejecutar los tests.
-USER antoniol97
 
+# Indica el directorio donde se montará todo
 VOLUME /test
 WORKDIR /test
-
-CMD ["gulp","test"]
+# Ejecuto gulp para ejecutar los test's
+CMD ["gulp","test"] 
