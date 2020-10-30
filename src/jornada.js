@@ -69,6 +69,40 @@ class Jornada {
       }
       return undefined;
     }
+      /**
+    * @function getObtenerEstadioSiguientePartido
+    * @summary Método que devuelve donde juega un equipo el siguiente partido 
+    * @author Antonio Martin
+    * @param1 {string} jornada Nombre de la jornada actual
+    * @param2 {string} NombreEquipo Nombre del equipo que queremos comprobar
+    * @returns {(Object|String)} objeto array con el nombre del estadio donde juega
+    */
+   getObtenerEstadioSiguientePartido(jornadaActual, NombreEquipo){
+    var datosjornadaActual = this.data[jornadaActual];
+    for(var i in datosjornadaActual['Partidos']){
+      if( datosjornadaActual['Partidos'][i]['Equipo1'] == NombreEquipo ||  datosjornadaActual['Partidos'][i]['Equipo2'] == NombreEquipo ){
+        return datosjornadaActual['Partidos'][i]['Estadio'];
+      }
+    }
+    return undefined;
+  }
+   /**
+    * @function getObtenerDiaSiguientePartido
+    * @summary Método que devuelve donde juega un equipo el siguiente partido 
+    * @author Antonio Martin
+    * @param1 {string} jornada Nombre de la jornada actual
+    * @param2 {string} NombreEquipo Nombre del equipo que queremos comprobar
+    * @returns {(Object|String)} objeto array con el dia del partido
+    */
+   getObtenerDiaSiguientePartido(jornadaActual, NombreEquipo){
+    var datosjornadaActual = this.data[jornadaActual];
+    for(var i in datosjornadaActual['Partidos']){
+      if( datosjornadaActual['Partidos'][i]['Equipo1'] == NombreEquipo ||  datosjornadaActual['Partidos'][i]['Equipo2'] == NombreEquipo ){
+        return datosjornadaActual['Partidos'][i]['Dia'];
+      }
+    }
+    return undefined;
+  }
 }
 
 

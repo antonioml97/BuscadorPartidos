@@ -14,6 +14,13 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
         assert.isArray(result);
     });
  }); 
+ describe("Comprobamos getObtenerSiguientePartido enlazada con HU1 Function: ", function() {
+    it("Comprobamos el siguiente partido del Granada", function() {
+        result   = jornadas.getObtenerSiguientePartido("Jornada-1","Granada");
+        assert.notEqual(result,undefined);
+    });
+    
+ })
  describe("Comprobamos getJornada enlazada con HU2 Function: ", function() {
     it("Comprobamos que existe la Jornada-1", function() {
         result   = jornadas.getJornada("Jornada-1");
@@ -24,9 +31,17 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
         assert.isArray(result);
     });
  });
- describe("Comprobamos getObtenerSiguientePartido enlazada con HU1 Function: ", function() {
-    it("Comprobamos el siguiente partido del Granada", function() {
-        result   = jornadas.getObtenerSiguientePartido("Jornada-1","Granada");
+;
+ describe("Comprobamos getObtenerEstadioSiguientePartido enlazada con HU3 Function: ", function() {
+    it("Comprobamos el estadio del siguiente partido del Granada", function() {
+        result   = jornadas.getObtenerEstadioSiguientePartido("Jornada-1","Granada");
+        assert.notEqual(result,undefined);
+    });
+    
+ });
+ describe("Comprobamos getObtenerDiaSiguientePartido enlazada con HU4 Function: ", function() {
+    it("Comprobamos el dia del siguiente partido del Granada", function() {
+        result   = jornadas.getObtenerDiaSiguientePartido("Jornada-1","Granada");
         assert.notEqual(result,undefined);
     });
     
