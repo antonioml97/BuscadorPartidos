@@ -6,11 +6,13 @@ LABEL version="1.2.5" maintainer="Antonio Martin"
 COPY package*.json ./
 
 # Instala las dependencias 
-RUN npm install && npm install -g gulp  && adduser -D usuarioIV
+RUN  adduser -D usuarioIV && mkdir /node_modules && chown -R usuarioIV /node_modules && chown -R usuarioIV /usr/local/lib/node_modules && chown -R usuarioIV /usr/local/bin
 
 # Usuario
 USER usuarioIV
 
+# Instala las dependencias 
+RUN npm install && npm install -g gulp  
 
 # Indica el directorio donde se montará todo
 VOLUME /test
