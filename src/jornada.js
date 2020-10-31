@@ -61,6 +61,7 @@ class Jornada {
     */
     getObtenerSiguientePartido(jornadaActual, NombreEquipo){
       var datosjornadaActual = this.data[jornadaActual];
+      
       for(var i in datosjornadaActual['Partidos']){
         if( datosjornadaActual['Partidos'][i]['Equipo1'] == NombreEquipo ||  datosjornadaActual['Partidos'][i]['Equipo2'] == NombreEquipo ){
           return datosjornadaActual['Partidos'][i];
