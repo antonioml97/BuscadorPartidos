@@ -2,6 +2,7 @@
 FROM node:14.14.0-alpine
 LABEL version="1.2.5" maintainer="Antonio Martin"
 
+
 # Copia el archivo de dependencias
 COPY package*.json ./
 
