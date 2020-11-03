@@ -1,0 +1,13 @@
+ 
+#Lenguaje de la aplicacion
+language: node_js
+#Versiónes donde los pruebo
+node_js:
+  - "10"
+  - "14"
+#Instalo las dependencias, el gestor de tareas y ejecuto los tests.
+build:
+  ci:
+    - npm install
+    - npm install -g gulp
+    - gulp test
