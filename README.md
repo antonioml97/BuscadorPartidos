@@ -37,9 +37,9 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 
 ## Integración continua
 ### Integración continua funcionando y correcta justificación de la misma : Travis
-- [Justifación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md)
-- [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md)
-- Prueba de funcionamiento es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de Node que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta[aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
+- [Justifación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md).
+- [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md).
+- Prueba de funcionamiento es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de Node que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
 ### Configuración de algún sistema de integración continua adicional : Shippable
 - [Justifacion de Shippable]()
 - [Configurar Shippable]()
