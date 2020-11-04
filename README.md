@@ -7,12 +7,6 @@ El motivo por el cual he elegido este problema es porque siempre que quiero ver 
 
 Para implementarlo he elegido NodeJS.
 
-## Documentación del proyecto
-Presentamos un listado con la documentación del proyecto en el estado actual:
-- Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
-- Historias de usuario y milestones. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/HistoriasDeUsuario.md)
-- Pasos para llevarlo a cabo. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Pasos.md)
-
 ## Test
 En las herramientas del proyecto se encuentra la justificación o el motivo que me ha hecho decidir usar estas herramientas para llevar acabo los test. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 
@@ -40,7 +34,16 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - Explicación de GHCR [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Github-Container-Registry.md).
 - [Contenedor de Github](https://github.com/users/antonioml97/packages/container/package/buscadorpartidos).
 - Ejecutar ```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
-                                                    
+
+## Integración continua
+
+
+
+## Documentación del proyecto
+Presentamos un listado con la documentación del proyecto en el estado actual:
+- Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
+- Historias de usuario y milestones. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/HistoriasDeUsuario.md)
+
 ## Enlaces adicionales
 - [Configuración de git](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/configGit.md)
 - [Información consultada para hacer los test](https://www.paradigmadigital.com/dev/testeando-javascript-mocha-chai/)

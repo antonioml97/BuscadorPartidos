@@ -2,13 +2,13 @@
     "Jornada-1": {
       "Semana-Jornada":"19 octubre",
       "Partidos":{
-        "Partido-1":{
+        "Partido_1":{
           "Equipo1": "Real Madrid",
           "Equipo2": "Barcelona",
           "Dia": "24 octubre",
           "Estadio": "Santiago Bernabeu"
         },
-        "Partido-2":{
+        "Partido_2":{
           "Equipo1": "Granada",
           "Equipo2": "Sevilla",
           "Dia": "24 octubre",

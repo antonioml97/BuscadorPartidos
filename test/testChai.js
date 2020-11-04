@@ -21,7 +21,7 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
     });
     
  })
- describe("Comprobamos getJornada enlazada con HU2 Function: ", function() {
+ describe("Comprobamos getJornada,getDatos y getObtenerTodosParitdosJornada que están enlazada con HU2 Function: ", function() {
     it("Comprobamos que existe la Jornada-1", function() {
         result   = jornadas.getJornada("Jornada-1");
         assert.notEqual(result,undefined);
@@ -29,6 +29,10 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
     it("Comprueba los datos estan en formato array ", function() {
         result   = jornadas.getDatos();
         assert.isArray(result);
+    });
+    it("Comprueba que exiten partidos en esa Jornada ", function() {
+        result   = jornadas.getObtenerTodosParitdosJornada("Jornada-1");
+        assert.notEqual(result,undefined);
     });
  });
 ;
