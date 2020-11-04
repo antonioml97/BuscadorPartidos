@@ -36,8 +36,15 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - Ejecutar ```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
 
 ## Integración continua
-
-
+### Integración continua funcionando y correcta justificación de la misma : Travis
+- [Justifacion de Travis]()
+- [Configurar Travis]()
+- [Prueba de funcionamiento]()
+### Configuración de algún sistema de integración continua adicional : Shippable
+- [Justifacion de Shippable]()
+- [Configurar Shippable]()
+- [Prueba de funcionamiento]()
+### Uso de docker en el algun CI.
 
 ## Documentación del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
