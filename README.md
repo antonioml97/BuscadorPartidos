@@ -37,15 +37,24 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 
 ## Integración continua
 ### Integración continua funcionando y correcta justificación de la misma : Travis
-- [Justifación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md).
+- [Justificación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md).
 - [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md).
-- Prueba de funcionamiento es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de Node que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
+- Prueba de funcionamiento es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de NodeJS que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
 ### Configuración de algún sistema de integración continua adicional : Shippable
-- [Justifación de Shippable](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionShippable.md).
+- [Justificación de Shippable](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionShippable.md).
 - [Configurar Shippable](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarShippable.md).
 - [Prueba de funcionamiento](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/shipabble_ok.png).
 ### Uso de docker en el algun CI.
-
+En mi caso, debido a lo sencillo que es usar la herramienta para crear contenedores conocida como Docker en Travis he optado por hacerlo ahi. De esta manera, haciendo los test con Travis consturte el contenedor y lo ejecuta. Su configuración es muy sencilla, basta con modificar el .travis.yml, de esta manera:
+```
+services:
+- docker
+before_install:
+- docker pull antonioml97/buscadorpartidos
+script:
+- docker run -t -v `pwd`:/test antonioml97/buscadorpartidos
+```
+La primera linea indica que vamos a usar este servicio, la segunda se descarga la imagen que tenemos en dockerhub, y por ultimo, la tercera linea lo ejecuta. El resultado esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/Travis-Docker.png).
 ## Documentación del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
 - Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Herramientas.md)
