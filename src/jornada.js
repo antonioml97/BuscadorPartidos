@@ -95,7 +95,7 @@ class Jornada {
     * @param2 {string} NombreEquipo Nombre del equipo que queremos comprobar
     * @returns {(Object|String)} objeto array con el dia del partido
     */
-   getObtenerDiaSiguientePartido(jornadaActual, NombreEquipo){
+  getObtenerDiaSiguientePartido(jornadaActual, NombreEquipo){
     var datosjornadaActual = this.data[jornadaActual];
     for(var i in datosjornadaActual['Partidos']){
       if( datosjornadaActual['Partidos'][i]['Equipo1'] == NombreEquipo ||  datosjornadaActual['Partidos'][i]['Equipo2'] == NombreEquipo ){
@@ -104,7 +104,22 @@ class Jornada {
     }
     return undefined;
   }
-}
+  /**
+    * @function getObtenerTodosParitdosJornada
+    * @summary Método que devuelve los partidos de una jornada
+    * @author Antonio Martin
+    * @param1 {string} jornada Nombre de la jornada a consultar
+    * @returns {(Object|String)} objeto array con el dia del partido
+    */
+   getObtenerTodosParitdosJornada(jornadaActual){
+      var jornadaActual = this.data[jornadaActual];
+      if (jornadaActual["Partidos"] != undefined)
+        return jornadaActual["Partidos"] 
+      else
+        undefined
+    }
 
+    
+}
 
 module.exports = Jornada;
