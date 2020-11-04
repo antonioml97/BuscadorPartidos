@@ -1,7 +1,7 @@
  
 #Lenguaje de la aplicacion
 language: node_js
-#Versiónes donde los pruebo
+#Distinas versiones del lenguaje donde voy a probar los test
 node_js:
   - "10"
   - "14"
