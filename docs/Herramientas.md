@@ -8,5 +8,5 @@
 - [MOCHA.JS](https://mochajs.org/), es un marco de prueba de JavaScript para los programas Node.js, que ofrece soporte de navegador, pruebas asincrónicas, informes de cobertura de prueba y el uso de cualquier biblioteca de aserciones. Por mi parte, he pensado en elegir este porque es el más famoso porque lo que me hace pensar que es uno de los mejores y a ser uno de lo más famoso hace que sea muy sencillo encontrar documentación para hacer nuevos test.
 - [CHAI.JS](https://www.chaijs.com/), Chai es una librería de aserciones, que se puede emparejar con cualquier marco de pruebas de JavaScript. Chai tiene varias interfaces: assert, expect y should, en este caso he usado assert. En este caso, he elegido por esta librería porque la mayoría de los manuales con MochaJS viene con esta librería lo que hace más simple entender su funcionamiento.
 - [GULPJS](https://gulpjs.com/), Gulp es un manejador de tareas(Task manager). He optado por elegir este task manager debido a que es muy sencillo de entender y hay varios proyectos y tutoriales que ayudan a su compresión. 
-- Para llevar a acabo las pruebas he optado por usar el contenedor con **Docker**
+- Para llevar a acabo las pruebas he optado por usar el contenedor con **Docker**.
 - La integración continua la vamos a realizar con **Travis**.
