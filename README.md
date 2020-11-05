@@ -33,9 +33,10 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 ## GITHUB CONTAINER REGISTRY
 - Explicación de GHCR [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Github-Container-Registry.md).
 - [Contenedor de Github](https://github.com/users/antonioml97/packages/container/package/buscadorpartidos).
-- Ejecutar ```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
+- Ejecutar 
+```docker run -t -v `pwd`:/test ghcr.io/antonioml97/buscadorpartidos_github_registry ```
 
-## Integración continua
+## Integración continua 
 ### Integración continua funcionando y correcta justificación de la misma : Travis
 - [Justificación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md).
 - [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md).
