@@ -15,7 +15,7 @@ USER usuarioIV
 # Instala las dependencias 
 RUN npm install && npm install -g gulp  
 
-# Indica el directorio donde se montará todo
+# Indica el directorio donde se montará 
 VOLUME /test
 WORKDIR /test
 
