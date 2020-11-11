@@ -13,7 +13,7 @@ RUN  adduser -D usuarioIV && mkdir /node_modules && chown -R usuarioIV /node_mod
 USER usuarioIV
 
 # Instala las dependencias 
-RUN npm install && npm install -g gulp  
+RUN npm install && npm install -g gulp && npm install -g gulp-install
 
 # Indica el directorio donde se montará 
 VOLUME /test
