@@ -1,9 +1,15 @@
-# ¿Justificación de la configuración Shippable?
+# ¿Por qúe lo uso? 
+- Similar a Travis.
+- Su configuración no es compleja.
+- La documentación , como en Travis, es muy completa, incluso te indica como ponerlo con DockerFile aunque elegiré Travis para ello al ser más simple.
+- Presenta una consola que te permite consultar y seguir los pasos que esta haciendo para llevar acabo las tareas programadas.
+- Es muy rápido en realizar los test.
+# Justificación de la configuración Shippable
 - Lo primero que tenemos que hacer es indicar que lenguaje de programación vamos a usar para ello simplemente basta con indicar lo siguiente:
 ```
 language: node_js
 ```
-- El siguiente proceso es indicar las versiones del lenguaje donde vamos a usar el lenguaje, ya que se puede hacer de varias versiones paralelamente,podríamos poner más versiones pero opto por usar estas dos al ser ya versiones estable, para ello es necesario esto:
+- El siguiente proceso es indicar las versiones del lenguaje donde vamos a usar el lenguaje, ya que se puede hacer de varias versiones paralelamente,podríamos poner más versiones pero opto por usar estas dos al ser ya versiones estables, para ello es necesario esto:
 ```
 node_js:
 - "10"
