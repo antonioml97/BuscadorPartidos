@@ -1,9 +1,3 @@
-# ¿Por qué lo uso? 
-- Similar a Travis.
-- Su configuración no es compleja.
-- La documentación , como en Travis, es muy completa, incluso te indica como ponerlo con DockerFile aunque elegiré Travis para ello al ser más simple.
-- Presenta una consola que te permite consultar y seguir los pasos que esta haciendo para llevar acabo las tareas programadas.
-- Es muy rápido en realizar los test.
 # Justificación de la configuración Shippable
 - Lo primero que tenemos que hacer es indicar que lenguaje de programación vamos a usar para ello simplemente basta con indicar lo siguiente:
 ```
