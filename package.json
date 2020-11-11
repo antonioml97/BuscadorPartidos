@@ -30,5 +30,6 @@
     "gulp": "^4.0.2",
     "gulp-util": "^3.0.8",
     "gulp-mocha": "^7.0.2"
+    "gulp-install": "^1.1.0",
   }
 }
