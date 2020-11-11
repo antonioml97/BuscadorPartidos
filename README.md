@@ -42,8 +42,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 - [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md).
 - La prueba de funcionamiento de Travis es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de NodeJS que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
 ### Configuración de algún sistema de integración continua adicional : Shippable
-- [Justificación de la configuración Shippable](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionShippable.md).
-- [Configurar Shippable](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarShippable.md).
+- [Justificación de la configuración Shippable y como hacerlo](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarShippable.md).
 - [Prueba de funcionamiento](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/shipabble_ok.png).
 ### Uso de docker en el algun CI.
 En mi caso, debido a lo sencillo que es usar la herramienta para crear contenedores conocida como Docker en Travis he optado por hacerlo ahi. De esta manera, haciendo los test con Travis consturte el contenedor y lo ejecuta. Su configuración es muy sencilla, basta con modificar el .travis.yml, de esta manera:
