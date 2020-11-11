@@ -75,7 +75,7 @@ function recuperar(pedido,respuesta) {
     pedido.on('data', datosparciales => {
         info += datosparciales;
     });
-    // Cuando llegan todos los datos
+    // Cuando tenemos todos los datos
     pedido.on('end', () => {
         const formulario = querystring.parse(info);
 
