@@ -1,4 +1,4 @@
-# ¿Por qúe lo uso? 
+# ¿Por qué lo uso? 
 - Similar a Travis.
 - Su configuración no es compleja.
 - La documentación , como en Travis, es muy completa, incluso te indica como ponerlo con DockerFile aunque elegiré Travis para ello al ser más simple.
