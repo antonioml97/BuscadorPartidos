@@ -1,6 +1,5 @@
 # Justificación de la configuración Travis
-Una vez creado una cuenta y vincularla con este repositorio, la configuración esta en [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml)
-Que contiene lo siguiente:
+Una vez creado una cuenta y vincularla con este repositorio, la configuración esta en [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml), que contiene lo siguiente:
 ```
 language: node_js
 node_js:
