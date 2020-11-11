@@ -5,7 +5,7 @@ language: minimal
 script:
 - docker run -t -v `pwd`:/test antonioml97/buscadorpartidos
 ```
-Utilizo una imagen muy básica, que se puede consultar [aquí](https://docs.travis-ci.com/user/languages/minimal-and-generic/), que contiene cosas basicas entras ellas Docker y la herramientas de red.
+Utilizo una imagen muy básica, la cual se puede consultar [aquí](https://docs.travis-ci.com/user/languages/minimal-and-generic/), que contiene cosas basicas entras ellas Docker y la herramientas de red.
 
 
 Anteriormente estaba con cosas que eran innecesarias que son las siguientes:
