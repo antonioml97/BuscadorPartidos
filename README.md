@@ -7,14 +7,7 @@ El motivo por el cual he elegido este problema es porque siempre que quiero ver 
 
 Para implementarlo he elegido NodeJS.
 
-## Test
-En las herramientas del proyecto se encuentra la justificación o el motivo que me ha hecho decidir usar estas herramientas para llevar acabo los test. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
 
-Para llevar a acabo los test creados para el proyecto hay que seguir los [siguientes pasos](https://github.com/antonioml97/IV-20-21/blob/master/docs/PasosTest.md).
-
-El fichero donde esta el test se encuentra [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
-
-El uso de este test es comprobar que se leen bien los datos y con el formato adecuado, siendo un pequeño avance pero algo significativo para el proyecto, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente [imagen](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/testFinal.png).
 
 ## Docker
 - Elección correcta y justificación de contenedor base. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/DockerJustificacion.md)
@@ -38,8 +31,7 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 
 ## Integración continua 
 ### Integración continua funcionando y correcta justificación de la misma : Travis
-- [Justificación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/InformacionTravis.md).
-- [Configurar Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarTravis.md).
+- [Justificación de Travis](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/JustifacionTravis.md).
 - La prueba de funcionamiento de Travis es esta imagen donde se ve que ha pasado los test para las 2 versiones distintas de NodeJS que he indicado en el archivo [.travis.yml](https://github.com/antonioml97/BuscadorPartidos/blob/master/.travis.yml). La imagen esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/PruebaTravis.png).
 ### Configuración de algún sistema de integración continua adicional : Shippable
 - [Justificación de la configuración Shippable y como hacerlo](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/ConfigurarShippable.md).
@@ -47,14 +39,19 @@ El uso de este test es comprobar que se leen bien los datos y con el formato ade
 ### Uso de docker en el algun CI.
 En mi caso, debido a lo sencillo que es usar la herramienta para crear contenedores conocida como Docker en Travis he optado por hacerlo ahi. De esta manera, haciendo los test con Travis consturte el contenedor y lo ejecuta. Su configuración es muy sencilla, basta con modificar el .travis.yml, de esta manera:
 ```
-services:
-- docker
-before_install:
-- docker pull antonioml97/buscadorpartidos
 script:
 - docker run -t -v `pwd`:/test antonioml97/buscadorpartidos
 ```
-La primera linea indica que vamos a usar este servicio, la segunda se descarga la imagen que tenemos en dockerhub, y por ultimo, la tercera linea lo ejecuta. El resultado esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/Travis-Docker.png).
+Simple con esto lo hacemos con docker, docker run descarga la imagen si dicha imagen no está en el local, entonces no tenemos que usar pull.El resultado esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/Travis-Docker.png).
+
+## Test
+En las herramientas del proyecto se encuentra la justificación o el motivo que me ha hecho decidir usar estas herramientas para llevar acabo los test. [Más información](https://github.com/antonioml97/IV-20-21/blob/master/docs/Herramientas.md)
+
+Para llevar a acabo los test creados para el proyecto hay que seguir los [siguientes pasos](https://github.com/antonioml97/IV-20-21/blob/master/docs/PasosTest.md).
+
+El fichero donde esta el test se encuentra [aquí](https://github.com/antonioml97/IV-20-21/blob/master/test/testChai.js).
+
+El uso de este test es comprobar que se leen bien los datos y con el formato adecuado, siendo un pequeño avance pero algo significativo para el proyecto, y adicionalmente, ver que existe la jornada 1. Una prueba de su uso es la siguiente [imagen](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/img/testFinal.png).
 ## Documentación del proyecto
 Presentamos un listado con la documentación del proyecto en el estado actual:
 - Herramientas usadas en el proyecto. [Más información](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Herramientas.md)
