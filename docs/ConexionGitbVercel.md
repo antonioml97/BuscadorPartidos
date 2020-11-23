@@ -23,7 +23,7 @@ Vercel consiste en una plataforma o aplicación que hace posible el despliegue d
 
 - Tenemos que instalar vercel cli, para implementar el proyecto, paro eso ejecutatmos: 
 ``` npm i -g vercel ```
-- Tras esto ejecutamos ```vercel ``` donde nos preguntara si queremos vincularlo con uno ya existente que es el lp que vamos a hacer.
+- Tras esto ejecutamos ```vercel ``` donde nos preguntara si queremos vincularlo con uno ya existente que es el lo que vamos a hacer.
 ![Vercel-Comando](./img/Vercel-Comando.png)
 - Por último, para desplegar hacemos ```vercel --prod```
 ![Vercel-Prod](./img/Vercel-Prod.png)
@@ -47,7 +47,7 @@ Y cambiamos la URL añadiendo al final *multipliacionSencilla.js*, dando 0 al no
 
 ![Vercel-EJ1](./img/Vercel-EJ1.png)
 
-Si cambiamos la URL añadiendo al final *multipliacionSencilla.js?n1=2&n2=5*, el resultado es 10 al haberle pasado n1=2 y n2=10.
+Si cambiamos la URL añadiendo al final *multipliacionSencilla.js?n1=2&n2=5*, el resultado es 10 al haberle pasado n1=2 y n2=5.
 ![Vercel-EJ2](./img/Vercel-EJ2.png).
 
 Con este sencillo ejemplo se ve como se puede desplegar una función serverless fácilmente. 
