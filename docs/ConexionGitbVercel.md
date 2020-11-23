@@ -18,8 +18,8 @@ Vercel consiste en una plataforma o aplicación que hace posible el despliegue d
 
 - Arreglado el problema anterior, ya no tenemos problemas para seguir importándolo
 
-![Vercel-Importar-OK](./img/Vercel-Importar-OK.png)
-![Vercel-Importar-Final](./img/Vercel-Importar-Final.png)
+![Vercel-Importar-OK](./img/Vercel-Importar-Ok.png)
+![Vercel-Importado-Final](./img/Vercel-Importado-Final.png)
 
 - Tenemos que instalar vercel cli, para implementar el proyecto, paro eso ejecutatmos: 
 ``` npm i -g vercel ```
