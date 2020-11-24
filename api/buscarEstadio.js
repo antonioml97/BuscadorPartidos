@@ -7,21 +7,24 @@ module.exports = (req,res) =>{
     const{equipo_recibido="Desconocido"} = req.query
     const{jornada_recibido="Desconocido"} = req.query
     
-    var result;
+    var resultado="Vacio";
     var jornada = new Jornada();
-    // Prueba
-    if( (equipo_recibido == "Ateltico" || equipo_recibido == "Huesca" || equipo_recibido == "Cadiz" || equipo_recibido == "Villareal" || equipo_recibido == "Real Madrid" || equipo_recibido=="Barcelona" || equipo_recibido=="Granada" || equipo_recibido=="Sevilla" || equipo_recibido=="Betis") && (jornada_recibido=='1' || jornada_recibido=='2' ) ) {
-        var resultado = jornada.getObtenerEstadioSiguientePartido(jornada_recibido,equipo_recibido)
-    }
-      
+
     //Si es 'Desconocido' significa que no se ha recibido nada
     if(equipo_recibido == "Desconocido"){
         resultado="Debe indicar un equipo y una jornada";
     }
     else{
-        resultado="No tenemos ese equipo o esa jornada los disponibles son: Jornada-1 Jornada-2  Real Madrid  Barcelona Granada Sevilla Betis Ateltico Huesca Cadiz Villareal";
-
+        resultado="No tenemos ese equipo o esa jornada los disponibles son: Jornada-1 Jornada-2  Real Madrid  Barcelona Granada Sevilla Betis Ateltico Huesca Cadiz Villareal" ;
+        resultado = "Lo que lee: " + equipo_recibido + " " + jornada_recibido + "."
     }
+
+    // Prueba
+    if( (equipo_recibido == "Ateltico" || equipo_recibido == "Huesca" || equipo_recibido == "Cadiz" || equipo_recibido == "Villareal" || equipo_recibido == "Real Madrid" || equipo_recibido=="Barcelona" || equipo_recibido=="Granada" || equipo_recibido=="Sevilla" || equipo_recibido=="Betis") && (jornada_recibido=="Jornada-1" || jornada_recibido=="Jornada-2" ) ) {
+        var resultado = "El siguiente partido del " + equipo_recibido + " en la jornada " + jornada_recibido + " es " + jornada.getObtenerEstadioSiguientePartido(jornada_recibido,equipo_recibido)
+    }
+      
+   
 
     // ENVIAMOS el resultado
     res.status(200).send(resultado)
