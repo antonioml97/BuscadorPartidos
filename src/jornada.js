@@ -7,8 +7,6 @@ class Jornada {
     constructor(){
         this.numeroparitdos;
         this.partidosJornada;
-        this.dia;
-        this.mes;
         this.anioTemporada;
         this.data;
         try{

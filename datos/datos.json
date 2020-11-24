@@ -5,18 +5,58 @@
         "Partido_1":{
           "Equipo1": "Real Madrid",
           "Equipo2": "Barcelona",
-          "Dia": "24 octubre",
+          "Dia": "20 octubre",
           "Estadio": "Santiago Bernabeu"
         },
         "Partido_2":{
           "Equipo1": "Granada",
           "Equipo2": "Sevilla",
-          "Dia": "24 octubre",
+          "Dia": "21 octubre",
           "Estadio": "Los Carmenes"
+        },
+        "Partido_3":{
+          "Equipo1": "Betis",
+          "Equipo2": "Huesca",
+          "Dia": "22 octubre",
+          "Estadio": "Benito Villamarin"
+        },
+        "Partido_4":{
+          "Equipo1": "Ateltico",
+          "Equipo2": "Cadiz",
+          "Dia": "23 octubre",
+          "Estadio": "Wanda Metropolitano"
         }
       }
     },
-    "Jornada-2": {},
+    "Jornada-2": {
+      "Semana-Jornada":"26 octubre",
+      "Partidos":{
+        "Partido_1":{
+          "Equipo1": "Villareal",
+          "Equipo2": "Real Madrid",
+          "Dia": "30 octubre",
+          "Estadio": "La ceramica"
+        },
+        "Partido_2":{
+          "Equipo1": "Granada",
+          "Equipo2": "Huesca",
+          "Dia": "30 octubre",
+          "Estadio": "Los Carmenes"
+        },
+        "Partido_3":{
+          "Equipo1": "Betis",
+          "Equipo2": "Cadiz",
+          "Dia": "31 octubre",
+          "Estadio": "Benito Villamarin"
+        },
+        "Partido_4":{
+          "Equipo1": "Ateltico",
+          "Equipo2": "Celta",
+          "Dia": "31 octubre",
+          "Estadio": "Wanda Metropolitano"
+        }
+      }
+    },
     "Jornada-3": {},
     "Jornada-4": {},
     "Jornada-5":{},
