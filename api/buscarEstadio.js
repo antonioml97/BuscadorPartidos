@@ -15,7 +15,7 @@ module.exports = (req,res) =>{
     }
       
     //Si es 'Desconocido' significa que no se ha recibido nada
-    if(estadio_recibio == "Desconocido"){
+    if(equipo_recibido == "Desconocido"){
         resultado="Debe indicar un equipo y una jornada";
     }
     else{
