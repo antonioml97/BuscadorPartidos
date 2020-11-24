@@ -1,4 +1,3 @@
-const data = require("../datos/datos.json");
 const Jornada  = require("../src/jornada.js");
 
 module.exports = (req,res) =>{
