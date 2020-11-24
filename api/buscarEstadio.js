@@ -20,7 +20,7 @@ module.exports = (req,res) =>{
 
     // Prueba
     if( (equipo_recibido == "Ateltico" || equipo_recibido == "Huesca" || equipo_recibido == "Cadiz" || equipo_recibido == "Villareal" || equipo_recibido == "Real Madrid" || equipo_recibido=="Barcelona" || equipo_recibido=="Granada" || equipo_recibido=="Sevilla" || equipo_recibido=="Betis") && (jornada_recibido=="Jornada-1" || jornada_recibido=="Jornada-2" ) ) {
-        var resultado = "El siguiente partido del " + equipo_recibido + " en la jornada " + jornada_recibido + " es " + jornada.getObtenerEstadioSiguientePartido(jornada_recibido,equipo_recibido)
+        var resultado =  jornada.getObtenerEstadioSiguientePartido(jornada_recibido,equipo_recibido)
     }
       
    
