@@ -43,11 +43,11 @@ Tras esto, vamos a la pagina de Vercel y seleccionamos *buscador-partidos.vercel
 
 ![Vercel-Puesta-Marcha](./img/Vercel-Puesta-Marcha.png)
 
-Y cambiamos la URL añadiendo al final *multipliacionSencilla.js*, dando 0 al no haberle pasado ningún número.
+Y cambiamos la URL añadiendo al final *multiplicacionSencilla.js*, dando 0 al no haberle pasado ningún número.
 
 ![Vercel-EJ1](./img/Vercel-EJ1.png)
 
-Si cambiamos la URL añadiendo al final *multipliacionSencilla.js?n1=2&n2=5*, el resultado es 10 al haberle pasado n1=2 y n2=5.
+Si cambiamos la URL añadiendo al final *multiplicacionSencilla.js?n1=2&n2=5*, el resultado es 10 al haberle pasado n1=2 y n2=5.
 ![Vercel-EJ2](./img/Vercel-EJ2.png).
 
 Con este sencillo ejemplo se ve como se puede desplegar una función serverless fácilmente. 
