@@ -27,7 +27,7 @@ bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en qu
 //   const res = await (await fetch(API_URL + '/buscarEstadio.js?equipo_recibido=${NombreEquipo}&jornada_recibido=$${NombreEquipo}')).json();
 //   bot.telegram.sendMessage(ctx.chat.id, prueba);
 // });
-bot.hears(/\/PruebaVercel /, async (ctx) => {
+bot.command('PruebaVercel', async (ctx) => {
   const res = await (await fetch(API_URL + '/multiplicacionSencilla.js')).json();
   bot.telegram.sendMessage(ctx.chat.id, res);
 });
