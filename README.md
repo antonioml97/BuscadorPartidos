@@ -14,7 +14,7 @@ Para implementarlo he elegido NodeJS.
     - [Pequeña documentación](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/M%C3%A1sQueUnEjemplo.md)
     - Resultado esperado en [5.json](https://github.com/antonioml97/BuscadorPartidos/blob/master/5.json)
     - La URL de prueba la encontramos en [iv.yaml](https://github.com/antonioml97/BuscadorPartidos/blob/master/iv.yaml)
-    - El código esta [aquí](buscarEstadio.js).
+    - El código esta [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/api/buscarEstadio.js).
 - En mi caso he hecho el bot de Telegram con Firebase por lo que he cubierto la rubrica 3.
 - Información del bot de Telegram:
     - Para ver la documentación del bot pincha [aquí](https://github.com/antonioml97/BuscadorPartidos/blob/master/docs/Bot.md)
