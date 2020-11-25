@@ -24,14 +24,17 @@
     "chai": "^4.2.0",
     "core-util-is": "^1.0.2",
     "gulp-live-server": "0.0.31",
-    "mocha": "^8.1.3",
+    "mocha": "^8.2.1",
     "telegraf": "^3.38.0",
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
+    "firebase": "^8.1.1",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.11.0",
     "gulp": "^4.0.2",
-    "gulp-util": "^3.0.8",
+    "gulp-install": "^1.1.0",
     "gulp-mocha": "^7.0.2",
-    "gulp-install": "^1.1.0"
+    "gulp-util": "^3.0.8"
   }
 }

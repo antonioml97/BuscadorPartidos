@@ -11,7 +11,7 @@ if (Object.keys(functions.config()).length){
 const bot = new Telegraf(config.services.telegram_key);
 
 bot.start((ctx) => ctx.reply('Bienvenido al bot de Buscador-Paridos'))
-bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en que estadio juegara un eqipo en una jornada' ))
+bot.help(ctx => ctx.reply('/dondeJuega NombreEquipo Jornada-X \t Te dice en que estadio juegara un eqipo en una jornada' ))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.launch()
@@ -19,8 +19,9 @@ bot.launch()
 bot.command('dondeJuega', async (ctx) => {
 
     let res = 'Juegan :\n'
-    const NombreEquipo = ctx.message.text.substr(12,8)
-    const Jornada= ctx.message.text.substr(-9)
+    const datos = ctx.message.text.split(" ")
+    const NombreEquipo = datos[1]
+    const Jornada= datos[2]
     console.log(NombreEquipo)
     console.log(Jornada)
     
@@ -30,7 +31,7 @@ bot.command('dondeJuega', async (ctx) => {
   })
 
 
-exports.helloWorld = functions.https.onRequest((request, response) => {
-  functions.logger.info("Hello logs!", {structuredData: true});
-  response.send("Hello from Firebase!");
-});
+exports.bot = functions.https.onRequest((req, res) => {
+    bot.handleUpdate(req.body, res);
+  })
+  
