@@ -15,10 +15,11 @@ bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en qu
 //    var username = msg.from.username;
 //    var res= "Hola, " + username + " soy un bot y te digo donde juega un equipo";
 //    // Enviamos un mensaje indicando el id del chat, y concatenamos el nombre del usuario con nuestro saludo
-//    ctx.reply(res)
+//    ctx.reply(ctx.chat.idres)
 // })
 
 
-exports.bot = functions.https.onRequest((req, res) => {
-  bot.handleUpdate(req.body, res);
-})
+exports.handler = async (event, ctx, callback) => {
+  await bot.handleUpdate(JSON.parse(event.body));
+  return callback(null, { statusCode: 200 });
+};
