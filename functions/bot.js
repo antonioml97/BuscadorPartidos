@@ -29,7 +29,7 @@ bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en qu
 // });
 bot.command('PruebaVercel', async (ctx) => {
   const res = await (await fetch(API_URL + '/multiplicacionSencilla.js')).json();
-  bot.telegram.sendMessage(ctx.chat.id, res);
+  ctx.reply(res)
 });
 
 
