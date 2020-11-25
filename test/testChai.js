@@ -50,5 +50,12 @@ describe("Jornada tests using ASSERT interface from CHAI module: ", function() {
     });
     
  });
+ describe("Comprobamos getObtenerEstadioSiguientePartido enlazada con HU5 Function: ", function() {
+    it("Comprobamos el estadio del siguiente partido del Atletico", function() {
+        result   = jornadas.getObtenerEstadioSiguientePartido("Jornada-2","Atletico");
+        assert.notEqual(result,undefined);
+    });
+    
+ });
 });
 
