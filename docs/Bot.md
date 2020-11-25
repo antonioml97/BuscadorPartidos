@@ -1,5 +1,4 @@
-
-                                                                                                                                                      # Despliegue de bot en Telegram con Firebase
+# Despliegue de bot en Telegram con Firebase
 Para empezar a trabajar con esta plataforma, es necesario, estas registrado y haber hecho estos comandos:
 ```
 npm install -g firebase-admin
@@ -38,5 +37,5 @@ Además, he puesto en marca nuestro webhook, que es básicamente un enlace a una
 ## Integración Continua
 He tenido que desarrollar un [workflows](https://github.com/antonioml97/BuscadorPartidos/blob/master/.github/workflows/firebase.yml), para desplegar en firebase cuando nuestro bot sufra un cambio, esto se debe a que en Firebase no tiene integrado Github como ocurre en Netlify
 
-## Donde he seguido los pasos
+### Donde he seguido los pasos
 Para llevas estas tareas acabo he mirado varios tutoriales aunque el que más me ayudo fue [este](youtube.com/watch?v=iqY8yr1_Z_c&list=PLhMX5hA0NWUQoRqYNFBE35NlUn1J915M0&index=1&ab_channel=RomanAkhromieiev)
