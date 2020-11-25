@@ -118,3 +118,4 @@ dist
 # Varios
 .pdf
 .vercel
+env.json
