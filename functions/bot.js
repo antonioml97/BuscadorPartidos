@@ -23,18 +23,18 @@ bot.hears(/\/dondejuega (.+)/, async (ctx) => {
 
 
 exports.handler = async (event, ctx, callback) => {
-  // Obtenemos el cuerpo del mensaje, y lo separamos en el chat y en el texto enviado
+  // // Obtenemos el cuerpo del mensaje, y lo separamos en el chat y en el texto enviado
 
-	let msg = JSON.parse(event.body);
-	let text = msg.message.text;
-	let chat_id = msg.message.chat.id;
-  let cadena = ""
+	// let msg = JSON.parse(event.body);
+	// let text = msg.message.text;
+	// let chat_id = msg.message.chat.id;
+  // let cadena = ""
   
-  if (text == "/dondejuega"){
-		cadena = "Falta un equipo y una jornada";
-		cadena += "\n";
-		cadena += "Por ejemplo, /dondejuegaGranadaJornada-1";
-	}
+  // if (text == "/dondejuega"){
+	// 	cadena = "Falta un equipo y una jornada";
+	// 	cadena += "\n";
+	// 	cadena += "Por ejemplo, /dondejuegaGranadaJornada-1";
+	// }
 
   await bot.handleUpdate(JSON.parse(event.body));
   return callback(null, { statusCode: 200 });
