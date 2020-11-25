@@ -5,7 +5,7 @@ const API_URL = process.env.API_URL;
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
-bot.onText(/^\/start/, function(msg){
+bot.hears(/^\/start/, function(msg){
   var chatId = msg.chat.id;
   // msg.from.username se encarga de recoger el @alias del usuario.
   var username = msg.from.username;
