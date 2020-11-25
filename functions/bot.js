@@ -5,7 +5,7 @@ const API_URL = process.env.API_URL;
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
-bot.hears('hi', (ctx) => ctx.reply('Hey there'));0
+bot.hears('hi', (ctx) => ctx.reply('Hey there'));
 
 bot.start((ctx) => ctx.reply(process.uptime()));
 
