@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/antonioml97/IV-20-21#readme",
   "dependencies": {
+    "axios": "^0.21.0",
     "chai": "^4.2.0",
     "core-util-is": "^1.0.2",
     "gulp-live-server": "0.0.31",
