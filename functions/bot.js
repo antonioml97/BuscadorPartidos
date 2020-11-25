@@ -17,20 +17,20 @@ bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en qu
 //    // Enviamos un mensaje indicando el id del chat, y concatenamos el nombre del usuario con nuestro saludo
 //    ctx.reply(ctx.chat.idres)
 // })
-bot.hears(/\/dondeJuega (.+)/, async (ctx) => {
-  //Guardo el nombre del equipo
-  var NombreEquipo=ctx.message.text.substr(11,-10);
-  // Guardo la jornada
-  var Jornada="Jornada-"+ ctx.message.text.substr(-1);
+// bot.hears(/\/dondeJuega (.+)/, async (ctx) => {
+//   //Guardo el nombre del equipo
+//   var NombreEquipo=ctx.message.text.substr(11,-10);
+//   // Guardo la jornada
+//   var Jornada="Jornada-"+ ctx.message.text.substr(-1);
 
-  const prueba = "Esto es una prueba" 
-  const res = await (await fetch(API_URL + '/buscarEstadio.js?equipo_recibido=${NombreEquipo}&jornada_recibido=$${NombreEquipo}')).json();
-  bot.telegram.sendMessage(ctx.chat.id, prueba);
-});
-bot.hears(/\/PruebaVercel (.+)/, async (ctx) => {
-  const res = await (await fetch(API_URL + '/multiplicacionSencilla.js')).json();
-  bot.telegram.sendMessage(ctx.chat.id, res);
-});
+//   const prueba = "Esto es una prueba" 
+//   const res = await (await fetch(API_URL + '/buscarEstadio.js?equipo_recibido=${NombreEquipo}&jornada_recibido=$${NombreEquipo}')).json();
+//   bot.telegram.sendMessage(ctx.chat.id, prueba);
+// });
+// bot.hears(/\/PruebaVercel (.+)/, async (ctx) => {
+//   const res = await (await fetch(API_URL + '/multiplicacionSencilla.js')).json();
+//   bot.telegram.sendMessage(ctx.chat.id, res);
+// });
 
 
 exports.handler = async (event, ctx, callback) => {
