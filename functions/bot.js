@@ -5,12 +5,10 @@ const API_URL = process.env.API_URL;
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
-//bot.start((ctx) => ctx.reply(process.uptime()));
+bot.start((ctx) => ctx.reply(process.uptime()));
 bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en que estadio juega un eqipo en una jornada' ))
 
-bot.command('start', async (ctx) => {
-   // Imprimimos en consola el mensaje recibido.
-   console.log(msg);
+bot.command('Prueba', async (ctx) => {
    // msg.chat.id se encarga de recoger el id del chat donde se está realizando la petición.
    var chatId = msg.chat.id;
    // msg.from.username se encarga de recoger el @alias del usuario.
