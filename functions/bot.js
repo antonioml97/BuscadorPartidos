@@ -16,7 +16,7 @@ bot.command('start', async (ctx) => {
    // msg.from.username se encarga de recoger el @alias del usuario.
    var username = msg.from.username;
    // Enviamos un mensaje indicando el id del chat, y concatenamos el nombre del usuario con nuestro saludo
-   bot.sendMessage(chatId, "Hola, " + username + " soy un bot y te digo donde juega un equipo");
+   bot.telegram.sendMessage(ctx.chatId, "Hola, " + username + " soy un bot y te digo donde juega un equipo");
 })
 
 
