@@ -2,4 +2,4 @@ entidad:  src/jornada.js
 lenguaje: nodejs
 test:  test/testChai.js
 taskfile: gulpfile.js
-URL: https://buscador-partidos-7fppp0kr3.vercel.app/api/buscarEstadio.js?equipo_recibido=Ateltico&jornada_recibido=Jornada-2
+URL: https://buscador-partidos-ezbiy2umy.vercel.app/api/buscarEstadio.js?equipo_recibido=Ateltico&jornada_recibido=Jornada-2
