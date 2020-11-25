@@ -27,6 +27,10 @@ bot.hears(/\/dondeJuega (.+)/, async (ctx) => {
   const res = await (await fetch(API_URL + '/buscarEstadio.js?equipo_recibido=${NombreEquipo}&jornada_recibido=$${NombreEquipo}')).json();
   bot.telegram.sendMessage(ctx.chat.id, prueba);
 });
+bot.hears(/\/PruebaVercel (.+)/, async (ctx) => {
+  const res = await (await fetch(API_URL + '/multiplicacionSencilla.js')).json();
+  bot.telegram.sendMessage(ctx.chat.id, res);
+});
 
 
 exports.handler = async (event, ctx, callback) => {
