@@ -17,8 +17,9 @@ bot.help(ctx => ctx.reply('/dondeJuega{NombreEquipo}{Jornada-1} \t Te dice en qu
 //    // Enviamos un mensaje indicando el id del chat, y concatenamos el nombre del usuario con nuestro saludo
 //    ctx.reply(ctx.chat.idres)
 // })
-bot.hears(/\/prueba /, async (ctx) => {
-  const res = "Esto es una prueba"
+bot.hears(/\/prueba (.+)/, async (ctx) => {
+  const prueba = "Esto es una prueba" + ctx.message.text.substr(7)
+  const res= res.json()
   bot.telegram.sendMessage(ctx.chat.id, res);
 });
 
